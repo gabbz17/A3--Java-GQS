@@ -9,16 +9,13 @@ public class People {
 
     @Override
     public String toString() {
-        return "People{" +
-                "id='" + id + '\'' +
-                "name='" + name + '\'' +
-                ", email='" + email + '\'' +
-                ", number='" + number + '\'' +
-                '}';
+        return "id: " + id + "\n" +
+                "name: " + name + "\n" +
+                "email: " + email + "\n" +
+                "number: " + number;
     }
 
-    public People(int id, String name, String email, String number) {
-        this.id = id;
+    public People(String name, String email, String number) {
         this.name = name;
         this.email = email;
         this.number = number;
